@@ -1,14 +1,14 @@
-# Reactfolio V1.2 👩🏽‍🚀
+# reactproject V1.2 👩🏽‍🚀
 
-Reactfolio  a a a 
+reactproject  a a a 
 a a a a 
 .
 
 <center>
-<img src="https://cdn.tharindu.dev/reactfolio.jpg" alt="Reactfolio" />
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zegocloud.com%2Fblog%2Freact-projects&psig=AOvVaw0K5vVNy469sq62x1Zw_eIc&ust=1762091438707000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKjksqiM0ZADFQAAAAAdAAAAABAE"
+ alt="React Project" />
 </center>
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.tharindu.dev</a>
 
 -   [Features](#-features)
 -   [Getting started](#-getting-started)
