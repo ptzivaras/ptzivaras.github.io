@@ -27,7 +27,7 @@ const INFO = {
 		{
 			title: "PayrollSystem",
 			description:
-				"A Payroll System using React (UI), Spring Boot (API), and PostgreSQL. Clean 3-layer architecture, migrations, and tests.",
+				"Used 3-layer architecture, Flyway migrations, Stored Procedure for payroll calculation and secure REST APIs, Axios, TanStack Query for data fetching, caching, and paginations...",
 			// primary icon (shown if your UI only uses `logo`)
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			// full stack
@@ -42,7 +42,7 @@ const INFO = {
 		{
 			title: "NetShop",
 			description:
-				".NET e-shop with Razor Views (UI), ASP.NET Identity, and MySQL. Separate Spring+React version with JWT in progress.",
+				"A massive Eshop 3-Layer Architecture Project focusing on backend. I have remade this project multiple times. This is the best project i have done. Used Razor Views (UI), ASP.NET Identity for roles & Security, MySQL. Separate Spring+React version with JWT in progress.",
 			// Razor Views UI (no React here per your note)
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
 			logos: [
@@ -89,7 +89,7 @@ const INFO = {
 		{
 			title: "Efoodie",
 			description:
-				"React-based food delivery UI with mock REST and responsive design.",
+				"React-based food delivery UI with mock REST and responsive design(Todo).",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
 			linkText: "View Project",
@@ -123,7 +123,7 @@ const INFO = {
 		{
 			title: "Gym_Member_Management",
 			description:
-				"React (UI) + Spring Boot (API) + PostgreSQL. Memberships, payments, trainers, dashboards.",
+				"Gym Admin Application.. built for administrators to manage customer profiles, memberships, payments, trainers, and class schedules. The application includes a dashboard for visualizing gym data and supports features like viewing class schedules by day/time and managing. Memberships, payments, trainers, dashboards.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			logos: [
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
@@ -136,7 +136,7 @@ const INFO = {
 		{
 			title: "Thesis (Computational Geometry)",
 			description:
-				"C++ implementation for the Art Gallery problem (triangulation + graph theory).",
+				"C++ implementation for Algorithm to check MaxKernel in Orthogonal Polygon.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg",
 			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg"],
 			linkText: "View Project",
@@ -145,7 +145,7 @@ const INFO = {
 		{
 			title: "EuroDataAnalysis",
 			description:
-				"Data transformation and schema design with Python + PostgreSQL.",
+				"Data transformation and schema design with Python & SQL.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
 			logos: [
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
@@ -157,7 +157,7 @@ const INFO = {
 		{
 			title: "my-gym (React)",
 			description:
-				"Frontend-only gym demo in React: trainer programs and schedules.",
+				"Frontend-only gym demo in React showing trainer programs and schedules.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
 			linkText: "View Project",

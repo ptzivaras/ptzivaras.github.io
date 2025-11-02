@@ -27,7 +27,7 @@
 }
 
 .project-logo {
-	width: 30px;
+	width: 40px;
 }
 
 .project-logo img {
@@ -45,6 +45,28 @@
 
 .project-description {
 	color: var(--secondary-color);
+}
+
+/* Tech icons for each project's tech stack */
+.project-tech {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding-top: 10px;
+}
+
+/* header containing main logo and tech icons */
+.project-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.project-tech-icon {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+	opacity: 0.95;
 }
 
 .project-link {
