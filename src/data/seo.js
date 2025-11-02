@@ -23,7 +23,7 @@ const SEO = [
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
+			"If you're interested , feel free to reach out to me. I'm always open to new ideas and opportunities.",
 		keywords: ["A", "B ", "C "],
 	},
 ];

@@ -7,126 +7,160 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/ptzivaras",
+		linkedin: "https://www.linkedin.com/in/ptzivaras/",
 	},
 
 	homepage: {
-		title: "Full-stack developer with 3+ years working experience. In my free time i have worked in personal projects, freelance projects and finally i worked as volunteer in future generation.",
+		title: "Full-stack developer building web applications and services.",
 		description:
-			"I am looking at new challenges and opportunities to grow as a developer. ",
+			"In my free time, I have worked on personal projects, freelance projects, and volunteered at Future Generation. I am looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
 		title: "I’m Panagiotis Tzivaras. I live in Greece, where I enjoy my life and build my career.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are fullstack and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are full-stack and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest improvements. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
-
 
 	projects: [
 		{
 			title: "PayrollSystem",
 			description:
-				"A Payroll system(React JS + SpringBoot) demonstrating a clean 3-layer architecture, database migrations, and comprehensive testing.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A Payroll System using React (UI), Spring Boot (API), and PostgreSQL. Clean 3-layer architecture, migrations, and tests.",
+			// primary icon (shown if your UI only uses `logo`)
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			// full stack
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/spring.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/PayrollSystem",
 		},
-
 		{
 			title: "NetShop",
 			description:
-				"A massive 3 layer secure(with Identity instead of JWT) eshop build in .Net. I am also making the same project in Spring & React(with JWT as authentication). Features:Login,Registration,Roles,Pagination,Filtering,Cache in sql level and backend,shopping cart,checkout with concurency solutions, cart persists per user, orders, admin dashboard, localization, UI/UX. I will focus on UI later", 
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				".NET e-shop with Razor Views (UI), ASP.NET Identity, and MySQL. Separate Spring+React version with JWT in progress.",
+			// Razor Views UI (no React here per your note)
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg",
+			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/NetShop",
 		},
-
 		{
 			title: "BestBuy",
 			description:
-				"NetShop project build in React & Spring using JWT as authentication. This is not finished",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"React (UI) + Spring Boot (API) with JWT and PostgreSQL. Modular 3-layer design.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/spring.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/BestBuy",
 		},
-
 		{
-			title: "https://github.com/ptzivaras/SpringShop",
+			title: "SpringShop",
 			description:
-				"Researching whether to select RTK Querry or tanstack instead of old useEffect to implement apis in scaled projects",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"React (UI) + Spring backend. Researching RTK Query vs TanStack Query for API calls.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/spring.svg",
+			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/SpringShop",
 		},
-
 		{
 			title: "OnlineShop",
 			description:
-				"Strong focus on UI, it will never be finished... just for learning purposes",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"React UI sandbox for layouts/components; open-ended learning project.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/OnlineShop",
 		},
 		{
 			title: "Efoodie",
 			description:
-				"React JS project that mimics a food delivery service platform. Features include restaurant browsing, menu viewing, and order placement with a user-friendly interface.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"React-based food delivery UI with mock REST and responsive design.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/yummyfoodie",
 		},
 		{
 			title: "Other Projects",
 			description:
-				"A typical weather project in node.js with apis. A ASP.NET Core Api with DB optimizations using indexes and their evaluation at speed increasing in 100000 rows in a DB",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Projects inGuthub",
+				"Node.js weather API and ASP.NET Core performance tests on large datasets using MySQL indexes.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg",
+			],
+			linkText: "View Projects",
 			link: "https://github.com/",
 		},
 		{
 			title: "StealAllTheCats_V2",
 			description:
-				"A typical  .Net project using EF Core and code first approach. It is a console application that steals cat's data from an API and stores it in a local database. Features include data retrieval, storage, and basic CRUD operations. Tested & Dockerized",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Projects inGuthub",
+				".NET (EF Core, code-first) console app fetching cat data from an API; Dockerized.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg",
+			],
+			linkText: "View Project",
 			link: "https://github.com/ptzivaras/StealAllTheCats_V2",
 		},
 		{
 			title: "Gym_Member_Management",
 			description:
-				"Gym Admin Application A gym management system allowing administrators to manage customer profiles, memberships, payments, trainers, and class schedules. The application includes a dashboard for visualizing gym data and supports features like viewing class schedules by day/time and managing gym activities efficiently. I hoped to sell this eventually but it cannot be done because every Gym uses its own customied application even though they are all terible..",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Projects inGuthub",
+				"React (UI) + Spring Boot (API) + PostgreSQL. Memberships, payments, trainers, dashboards.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/spring.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+			],
+			linkText: "View Project",
 			link: "https://github.com/ptzivaras/Gym_Member_Management",
 		},
 		{
-			title: "Gym_Member_Management",
+			title: "Thesis (Computational Geometry)",
 			description:
-				"Please dont look at the code. This is my thesis in Computational Geometry. It is a c++ project implementing a known algorithm for the art gallery problem using triangulation and graph theory. The code is messy because i had to meet deadlines and i was learning c++ while doing it. The report is in greek only. This is ultra hard project in a scientific paper level. It is possible to bethe hardest achievement in my computer science career until i retire!",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Projects inGuthub",
+				"C++ implementation for the Art Gallery problem (triangulation + graph theory).",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg",
+			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg"],
+			linkText: "View Project",
 			link: "https://github.com/ptzivaras/Thesis",
 		},
 		{
-			title: "Gym_Member_Management",
+			title: "EuroDataAnalysis",
 			description:
-				"EuroDataAnalysis is a project developed under Panos Vasileiadhs supervision for mye030 course in Department of Computer Science and Engineering, University of Ioannina. It is developed by Tzivaras Vasilis and Tzivaras Panagiotis. Design the database schema, transform and load the data.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Projects inGuthub",
+				"Data transformation and schema design with Python + PostgreSQL.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+			],
+			linkText: "View Project",
 			link: "https://github.com/ptzivaras/EuroDataAnalysis",
 		},
 		{
-			title: "Gym_Member_Management",
+			title: "my-gym (React)",
 			description:
-				"I made this Gym using React. This has no backend and you can see some features like trainers programs etc. It is just for learning purposes.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Projects inGuthub",
+				"Frontend-only gym demo in React: trainer programs and schedules.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
+			linkText: "View Project",
 			link: "https://github.com/ptzivaras/my-gym",
 		},
 	],
