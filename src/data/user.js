@@ -106,7 +106,7 @@ const INFO = {
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg",
 			],
 			linkText: "View Projects",
-			link: "https://github.com/",
+			link: "https://github.com/ptzivaras?tab=repositories",
 		},
 		{
 			title: "StealAllTheCats_V2",
