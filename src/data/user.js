@@ -163,6 +163,17 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/my-gym",
 		},
+		{
+			title: "BookStore",
+			description:
+				"React book catalog with search, filters, favorites (persists in localStorage), dark/light themes, and toasts. Uses Context API, custom hooks, Tailwind UI, mock API data, and Vite.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/BookStore",
+			demoLink: "https://book-store-six-liart.vercel.app",
+			demoText: "Live Demo",
+		},
 	],
 };
 

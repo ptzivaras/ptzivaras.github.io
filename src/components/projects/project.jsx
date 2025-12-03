@@ -6,7 +6,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logo, logos, title, description, linkText, link } = props;
+	const { logo, logos, title, description, linkText, link, demoLink, demoText } = props;
 
 	// Map common simple-icons filenames to colored icons hosted by devicon (fallbacks)
 	const coloredIconMap = {
@@ -60,17 +60,29 @@ const Project = (props) => {
 								</div>
 							)}
 						</div>
-						<div className="project-title">{title}</div>
-						<div className="project-description">{description}</div>
+					<div className="project-title">{title}</div>
+					<div className="project-description">{description}</div>
+					<div className="project-link">
+						<div className="project-link-icon">
+							<FontAwesomeIcon icon={faLink} />
+						</div>
+
+						<div className="project-link-text">{linkText}</div>
+					</div>
+				</div>
+			</a>
+			{demoLink && (
+				<a href={demoLink} target="_blank" rel="noopener noreferrer" className="project-demo-link">
+					<div className="project-container">
 						<div className="project-link">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
 							</div>
-
-							<div className="project-link-text">{linkText}</div>
+							<div className="project-link-text">{demoText || 'Live Demo'}</div>
 						</div>
 					</div>
 				</a>
+			)}
 			</div>
 		</React.Fragment>
 	);

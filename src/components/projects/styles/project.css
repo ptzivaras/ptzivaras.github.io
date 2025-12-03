@@ -87,6 +87,26 @@
 	font-weight: 700;
 }
 
+.project-demo-link {
+	text-decoration: none;
+	display: block;
+	margin-top: -15px;
+}
+
+.project-demo-link .project-container {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.project-demo-link .project-link {
+	padding-top: 0;
+}
+
+.project:hover .project-demo-link .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
 @media (max-width: 600px) {
 	.project {
 		height: 300px;
