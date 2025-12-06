@@ -5,21 +5,13 @@
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
-}
-
-.project a {
-	text-decoration: none;
+	background: transparent;
+	transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .project:hover {
 	background: #fafafa;
 	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
-}
-
-.project:hover .project-link {
-	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
 }
 
 .project-container {
@@ -69,6 +61,36 @@
 	opacity: 0.95;
 }
 
+/* Links container */
+.project-links-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+/* Individual link buttons */
+.project-link-button {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 8px;
+	background: transparent;
+	border: 1px solid transparent;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.project-link-button:hover {
+	background: #f0f0f0;
+	border-color: var(--link-color);
+	color: var(--link-color);
+	transform: translateX(3px);
+}
+
 .project-link {
 	display: flex;
 	align-items: center;
@@ -87,41 +109,6 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
-}
-
-/* Hover effect for main project link (GitHub) */
-.project > a:hover .project-link {
-	color: var(--link-color);
-	transform: translateX(5px);
-}
-
-.project > a:hover .project-link-icon {
-	transform: scale(1.2);
-}
-
-.project-demo-link {
-	text-decoration: none;
-	display: block;
-	margin-top: -15px;
-}
-
-.project-demo-link .project-container {
-	padding-top: 10px;
-	padding-bottom: 15px;
-}
-
-.project-demo-link .project-link {
-	padding-top: 0;
-}
-
-/* Hover effect for demo link */
-.project-demo-link:hover .project-link {
-	color: var(--link-color);
-	transform: translateX(5px);
-}
-
-.project-demo-link:hover .project-link-icon {
-	transform: scale(1.2);
 }
 
 @media (max-width: 600px) {

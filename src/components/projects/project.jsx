@@ -38,51 +38,49 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-				<a href={link} target="_blank" rel="noopener noreferrer">
-					<div className="project-container">
-						<div className="project-header">
-							<div className="project-logo">
-								<img src={getColoredSrc(logo)} alt="logo" />
-							</div>
-
-							{/* tech stack icons (multiple) */}
-							{logos && logos.length > 0 && (
-								<div className="project-tech">
-									{logos.map((src, i) => (
-										<img
-											key={i}
-											src={getColoredSrc(src)}
-											alt={`${title}-tech-${i}`}
-											className="project-tech-icon"
-											title={src.split("/").pop().replace(".svg", "")}
-										/>
-									))}
-								</div>
-							)}
+				<div className="project-container">
+					<div className="project-header">
+						<div className="project-logo">
+							<img src={getColoredSrc(logo)} alt="logo" />
 						</div>
+
+						{/* tech stack icons (multiple) */}
+						{logos && logos.length > 0 && (
+							<div className="project-tech">
+								{logos.map((src, i) => (
+									<img
+										key={i}
+										src={getColoredSrc(src)}
+										alt={`${title}-tech-${i}`}
+										className="project-tech-icon"
+										title={src.split("/").pop().replace(".svg", "")}
+									/>
+								))}
+							</div>
+						)}
+					</div>
 					<div className="project-title">{title}</div>
 					<div className="project-description">{description}</div>
-					<div className="project-link">
-						<div className="project-link-icon">
-							<FontAwesomeIcon icon={faLink} />
-						</div>
-
-						<div className="project-link-text">{linkText}</div>
-					</div>
-				</div>
-			</a>
-			{demoLink && (
-				<a href={demoLink} target="_blank" rel="noopener noreferrer" className="project-demo-link">
-					<div className="project-container">
-						<div className="project-link">
+					
+					{/* Links section */}
+					<div className="project-links-container">
+						<a href={link} target="_blank" rel="noopener noreferrer" className="project-link-button">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
 							</div>
-							<div className="project-link-text">{demoText || 'Live Demo'}</div>
-						</div>
+							<div className="project-link-text">{linkText}</div>
+						</a>
+						
+						{demoLink && (
+							<a href={demoLink} target="_blank" rel="noopener noreferrer" className="project-link-button project-demo-button">
+								<div className="project-link-icon">
+									<FontAwesomeIcon icon={faLink} />
+								</div>
+								<div className="project-link-text">{demoText || 'Live Demo'}</div>
+							</a>
+						)}
 					</div>
-				</a>
-			)}
+				</div>
 			</div>
 		</React.Fragment>
 	);
