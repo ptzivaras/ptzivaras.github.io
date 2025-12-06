@@ -75,16 +75,28 @@
 	color: var(--secondary-color);
 	font-size: 12px;
 	padding-top: 20px;
+	transition: all 0.2s ease-in-out;
 }
 
 .project-link-icon {
 	padding-left: 5px;
 	font-size: 13px;
+	transition: transform 0.2s ease-in-out;
 }
 
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+}
+
+/* Hover effect for main project link (GitHub) */
+.project > a:hover .project-link {
+	color: var(--link-color);
+	transform: translateX(5px);
+}
+
+.project > a:hover .project-link-icon {
+	transform: scale(1.2);
 }
 
 .project-demo-link {
@@ -102,9 +114,14 @@
 	padding-top: 0;
 }
 
-.project:hover .project-demo-link .project-link {
+/* Hover effect for demo link */
+.project-demo-link:hover .project-link {
 	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
+	transform: translateX(5px);
+}
+
+.project-demo-link:hover .project-link-icon {
+	transform: scale(1.2);
 }
 
 @media (max-width: 600px) {
