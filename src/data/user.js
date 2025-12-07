@@ -162,6 +162,8 @@ const INFO = {
 			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/my-gym",
+			demoLink: "https://my-gym-xi.vercel.app/",
+			demoText: "Live Demo",
 		},
 		{
 			title: "BookStore",
