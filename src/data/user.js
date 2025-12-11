@@ -132,6 +132,8 @@ const INFO = {
 			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/Gym_Member_Management",
+			demoLink: "https://gymmembermanagement.vercel.app",
+			demoText: "Live Demo",
 		},
 		{
 			title: "Thesis (Computational Geometry)",
