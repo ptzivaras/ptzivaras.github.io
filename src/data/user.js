@@ -189,6 +189,21 @@ const INFO = {
 			demoLink: "https://aiassistant-three-pi.vercel.app",
 			demoText: "Live Demo",
 		},
+		{
+			title: "OpenBets - Lottery Analytics Platform",
+			description:
+				"Pure React SPA για ανάλυση αποτελεσμάτων ΚΙΝΟ. Real-time data από OPAP API, statistics dashboard με Chart.js για hot/cold αριθμούς και patterns, history browser με pagination, offline support με localStorage.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/chartdotjs.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg",
+			],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/Openbets",
+			demoLink: "https://openbets-two.vercel.app/",
+			demoText: "Live Demo",
+		},
 	],
 };
 
