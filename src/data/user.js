@@ -178,6 +178,17 @@ const INFO = {
 			demoLink: "https://book-store-six-liart.vercel.app",
 			demoText: "Live Demo",
 		},
+		{
+			title: "AI Assistant",
+			description:
+				"AI-powered assistant application with interactive chat interface and intelligent responses.AI Assistant that helps Customers via Chat Messages. It has limitations with Gemini's free tier API versions.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/AI_Assistant",
+			demoLink: "https://aiassistant-three-pi.vercel.app",
+			demoText: "Live Demo",
+		},
 	],
 };
 
