@@ -41,34 +41,36 @@ const INFO = {
 		},
 		{
 			title: "NetShop",
+			featured: true,
 			description:
-				"A massive Eshop 3-Layer Architecture Project focusing on backend. I have remade this project multiple times. This is the best project i have done. Used Razor Views (UI), ASP.NET Identity for roles & Security, MySQL. Separate Spring+React version with JWT in progress.",
-			// Razor Views UI (no React here per your note)
+				"Full-stack e-commerce platform built with ASP.NET Core 8 (API + MVC), Entity Framework Core, and SQL Server. Features 3-layer architecture, ASP.NET Identity with Admin/Customer roles, shopping cart, orders, wishlist, product reviews, admin dashboard with Chart.js, background stock alerts, rate limiting, repository & service patterns, and full unit + integration test coverage.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
 			logos: [
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg",
-				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftsqlserver.svg",
 			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/NetShop",
 		},
 		{
-			title: "BestBuy",
+			title: "JShop (SpringShop version 2)",
+			featured: true,
 			description:
-				"React (UI) + Spring Boot (API) with JWT and PostgreSQL. Modular 3-layer design.",
+				"Full-stack e-commerce platform built with Spring Boot (REST API) and React + Vite (SPA). Features JWT authentication with Spring Security, Stripe payment integration, PostgreSQL, shopping cart, order tracking, wishlist, product reviews, discount/coupon system, address management, and a full admin dashboard for products, orders, and discounts.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			logos: [
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/spring.svg",
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/stripe.svg",
 			],
 			linkText: "View Project",
-			link: "https://github.com/ptzivaras/BestBuy",
+			link: "https://github.com/ptzivaras/JShop",
 		},
 		{
 			title: "SpringShop",
 			description:
-				"React (UI) + Spring backend. Researching RTK Query vs TanStack Query for API calls.",
+				"Full-stack e-commerce app with React (UI) and Spring Boot (API). Uses both RTK Query (Redux Toolkit) and TanStack Query for API calls, JWT authentication with Spring Security, and admin product management.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			logos: [
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
@@ -77,16 +79,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/SpringShop",
 		},
-		{
-			title: "OnlineShop",
-			description:
-				"React UI sandbox for layouts/components; open-ended learning project.",
-			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
-			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
-			linkText: "View Project",
-			link: "https://github.com/ptzivaras/OnlineShop",
-		},
-		{
+{
 			title: "Efoodie",
 			description:
 				"React-based food delivery UI with mock REST and responsive design(Todo).",
@@ -98,7 +91,7 @@ const INFO = {
 		{
 			title: "Other Projects",
 			description:
-				"Node.js weather API and ASP.NET Core performance tests on large datasets using MySQL indexes.",
+				"A collection of smaller experiments and learning projects — including a Node.js weather API, ASP.NET Core performance tests, and more. Check my GitHub for the full list.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
 			logos: [
 				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
