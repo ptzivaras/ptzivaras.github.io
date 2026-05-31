@@ -114,7 +114,8 @@ const INFO = {
 			link: "https://github.com/ptzivaras/StealAllTheCats_V2",
 		},
 		{
-			title: "Gym_Member_Management",
+			title: "Gym Member Management",
+			featured: true,
 			description:
 				"Gym Admin Application.. built for administrators to manage customer profiles, memberships, payments, trainers, and class schedules. The application includes a dashboard for visualizing gym data and supports features like viewing class schedules by day/time and managing. Memberships, payments, trainers, dashboards.",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
@@ -150,11 +151,15 @@ const INFO = {
 			link: "https://github.com/ptzivaras/EuroDataAnalysis",
 		},
 		{
-			title: "my-gym (React)",
+			title: "my-gym (Next.js)",
+			featured: true,
 			description:
-				"Frontend-only gym demo in React showing trainer programs and schedules.",
-			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
-			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
+				"Gym website built with Next.js 15. Includes membership plans, trainer profiles, class schedules, BMI calculator, gallery, FAQ, contact form, dark/light mode, and basic SEO.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/my-gym",
 			demoLink: "https://my-gym-xi.vercel.app/",
@@ -172,29 +177,61 @@ const INFO = {
 			demoText: "Live Demo",
 		},
 		{
+			title: "YouFlow",
+			featured: true,
+			description:
+				"Full-stack business booking platform built entirely in TypeScript. Businesses register services and availability slots; clients make reservations. React 19 + Vite + Tailwind CSS (frontend), Node.js + Express + raw PostgreSQL with Controller-Service-Repository architecture (backend), JWT auth, Helmet, Morgan, and Jest + Supertest tests.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/typescript.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg",
+			],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/YouFlow",
+		},
+		{
+			title: "Appointment Booking System",
+			featured: true,
+			description:
+				"Full-stack appointment booking app with role-based access (Doctor / Patient). Doctors manage available slots; patients book appointments and track status (Pending, Completed, Cancelled). Built with React 19 + Vite (frontend), Node.js + Express 5 + Prisma ORM + PostgreSQL (backend), JWT authentication, bcrypt, and Docker.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/prisma.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg",
+			],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/appointment-booking-system",
+		},
+		{
+			title: "Nexus AI — Agent Assistant",
+			featured: true,
+			description:
+				"AI-powered support ticket management platform. Uses LLM integration (Groq llama-3.1 + OpenAI fallback) with structured outputs, sentiment analysis, automatic classification, urgency scoring, and confidence metrics. Features multi-provider LLM orchestration, AI safety guardrails, token usage tracking, prompt versioning, business rule overrides, and graceful degradation. Built with FastAPI + Python + SQLAlchemy + Pydantic (backend) and React 18 (frontend).",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastapi.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
+			],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/AI-Agent-Assistant",
+		},
+		{
 			title: "AI Assistant",
 			description:
-				"AI-powered assistant application with interactive chat interface and intelligent responses.AI Assistant that helps Customers via Chat Messages. It has limitations with Gemini's free tier API versions.",
+				"AI-powered assistant application with interactive chat interface and intelligent responses. AI Assistant that helps Customers via Chat Messages. It has limitations with Gemini's free tier API versions. (OpenAI key may be expired and not working)",
 			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
 			logos: ["https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg"],
 			linkText: "View Project",
 			link: "https://github.com/ptzivaras/AI_Assistant",
 			demoLink: "https://aiassistant-three-pi.vercel.app",
-			demoText: "Live Demo",
-		},
-		{
-			title: "OpenBets - Lottery Analytics Platform",
-			description:
-				"Pure React SPA για ανάλυση αποτελεσμάτων ΚΙΝΟ. Real-time data από OPAP API, statistics dashboard με Chart.js για hot/cold αριθμούς και patterns, history browser με pagination, offline support με localStorage.",
-			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
-			logos: [
-				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg",
-				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/chartdotjs.svg",
-				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg",
-			],
-			linkText: "View Project",
-			link: "https://github.com/ptzivaras/Openbets",
-			demoLink: "https://openbets-two.vercel.app/",
 			demoText: "Live Demo",
 		},
 	],
