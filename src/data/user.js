@@ -139,6 +139,20 @@ const INFO = {
 			link: "https://github.com/ptzivaras/Thesis",
 		},
 		{
+			title: "BigData Analytics Pipeline",
+			description:
+				"End-to-end big data pipeline with 4 layers: ingestion (500k synthetic rows from Kaggle dataset), PySpark distributed processing (revenue per day, top products, customer segmentation), PostgreSQL storage, and Jupyter analytics with matplotlib/seaborn visualizations. Built with Python, pandas, numpy, PySpark, psycopg2, and Jupyter.",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
+			logos: [
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apachespark.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postgresql.svg",
+				"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jupyter.svg",
+			],
+			linkText: "View Project",
+			link: "https://github.com/ptzivaras/BigDataAnalyticsPipeline",
+		},
+		{
 			title: "EuroDataAnalysis",
 			description:
 				"Data transformation and schema design with Python & SQL.",
